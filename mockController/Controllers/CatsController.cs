@@ -28,7 +28,6 @@ namespace mock.depart.Controllers
             // UserId utilise une propriété pour pouvoir la "mock" facilement
             string? userid = UserId;
 
-            // TODO vous devrez aussi faire un mock avec le service
             try
             {
                 Cat? cat = _service.Get(id);
